@@ -1,0 +1,51 @@
+body {
+  background-image: linear-gradient(rgb(255, 0, 157), yellow);
+}
+
+h1 {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+
+/*anchos*/
+main {
+  width: 1440px;
+}
+main section {
+  width: 720px;
+}
+main #sectionDos {
+  width: 360px;
+}
+main #sectionDos div {
+  width: 420px;
+}
+
+.boton, .boton-nuevo {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.boton-nuevo {
+  background-color: blue;
+}
+
+.caja {
+  width: 550px;
+  height: 275px;
+}
+
+.caja2 {
+  width: 800px;
+  height: 350px;
+}
+
+/*# sourceMappingURL=css.map */

@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matimastroti/esteticapicada.git"
+    "url": "git+https://github.com/matimastroti/esteticaconsass.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/matimastroti/esteticapicada/issues"
+    "url": "https://github.com/matimastroti/esteticaconsass/issues"
   },
-  "homepage": "https://github.com/matimastroti/esteticapicada#readme"
+  "homepage": "https://github.com/matimastroti/esteticaconsass#readme"
 }

@@ -1,0 +1,54 @@
+body {
+    background-image: linear-gradient(rgb(255, 0, 157), yellow);
+}
+h1 {
+animation-duration: 2s;
+animation-name: aparecer;
+animation-iteration-count: infinite;
+}
+$anchura: 720px;
+/*anchos*/
+main {
+    width: calc($anchura*2); 
+    section {
+        width: $anchura;
+    }
+    #sectionDos {
+        width: calc($anchura/2);
+        div {
+            width: calc($anchura/2)+60;
+        }
+    }
+}
+// extends
+.boton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.boton-nuevo {
+    @extend .boton;
+    background-color: blue;
+}
+//mixin
+//@mixin name { $parametro1, $parametro2) {
+    //propiedad1: $parametro1
+    //propiedad2: $parametro2;
+//}
+@mixin tamanio ($anchito, $alturita) {
+    // fragmento que se imprime
+    width: $anchito;
+    height: $alturita;
+}
+    .caja {
+        @include tamanio(550px, 275px)
+
+    }
+    .caja2 {
+        @include tamanio(800px, 350px)
+    }
